@@ -1,5 +1,5 @@
 from django.utils.translation import ugettext_lazy as _
-
+import django_heroku
 
 """
 Django settings for vsdk project.
@@ -239,3 +239,5 @@ LOGGING = {
     }
 }
 
+# Activate Django-Heroku.
+django_heroku.settings(locals())
