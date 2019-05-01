@@ -33,7 +33,7 @@ SECRET_KEY = 'tk2(l(00&kfe7j97j$dvgz&b6r!kk_zbse1(9w*eoc$bcwu773'
 ########
 DEBUG = False
 
-#DEBUG = True
+# DEBUG = True
 
 
 ALLOWED_HOSTS = ['*']
@@ -152,7 +152,7 @@ MEDIA_URL = '/uploads/'
 try:
     SFTP_PASS =  os.environ['SFTP_PASS']
     SFTP_USER = os.environ['SFTP_USER']
-    HEROKU =os.environ['HEROKU'] 
+    HEROKU =os.environ['HEROKU']
     SFTP_HOST = os.environ['SFTP_HOST']
     SFTP_PORT = os.environ['SFTP_PORT']
 
